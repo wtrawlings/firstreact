@@ -1,28 +1,30 @@
 # This is your first REACT app attempt.
-## Run this set up for all your 
+## Run this set up for all your REACT projects
 
 ### Terminal Setup for React Projects
 Start yourself up by checking what you have. Open a terminal and run the following...
 1. node -v
 2. npm -v
 3. npx -v 
-make sure all versions are above 10 or NODE and above 5 for NPM and NPX
+make sure all versions are above 10 for NODE and above 5 for NPM and NPX
 4. npx create-react-app project-name
 Make sure you are in your correct directory where you make your projects. 
-This will start a basic react project folder with the project-name.
+This will start a basic react project folder with the `project-name`.
 Obviously change the project name to something you can work with. 
 It may take more than one attempt. Look for a completion message. Then CD change-directory into that location.
 5. npm start
 This command will verify if your install is working and may take a couple of minutes to execute. It SHOULD
-start a new tab in your browser showing a default webpage at localhost:3000
+start a new tab in your browser showing a default webpage at localhost:3000 
+You may need to keep an active terminal open for this as well so a total of three terminals?
 
 ### LESS setup
 1. you already have your NPM version verified but if needed run `npm install` to install all dependencies
 2. SPLIT your terminal so you can have one for running the LESS WATCH COMPILER and the other for GIT
 This way you can see if there was a problem with your LESS or not.
 3. Create folder for .less and create index.less file.
-3. run `less-watch-compiler less css index.less` to begin less compiling into css
+4. run `less-watch-compiler less css index.less` to begin less compiling into css
 The terminal should say it's looking for changes and it should generate a css folder and file for you.
+Verify LESS compiler is working by putting in `body {background-color: red;}`. Just to make sure...
 
 ### GIT behavior for this project
 Setup your GITHUB- lots of different ways to do this.
